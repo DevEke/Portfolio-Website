@@ -282,6 +282,18 @@ button:hover, button:focus {
             transform: translateY(20px);
   }
 }
+@keyframes orbit {
+  0% {
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
 .orb {
   -webkit-animation: .5s orbit infinite alternate ease;
           animation: .5s orbit infinite alternate ease;
