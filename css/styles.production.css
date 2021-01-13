@@ -32,15 +32,26 @@ h1 {
   color: var(--primary-color);
   margin: 10px 0;
 }
+h1 {
+  font-weight: 700;
+  color: #316c7f;
+}
 h2 {
   font-size: 24px;
   font-weight: var(--bold-text);
   color: var(--primary-color);
 }
+h2 {
+  font-weight: 700;
+  color: #316c7f;
+}
 h3 {
   font-size: 18px;
   font-weight: var(--light-text);
   margin: 10px 0;
+}
+h3 {
+  font-weight: 400;
 }
 .navigation-list {
   list-style-type: none;
