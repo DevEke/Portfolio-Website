@@ -53,7 +53,7 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
-*::-ms-backdrop, a {
+a {
   color: #316c7f;
 }
 .nav-list__item {
@@ -66,7 +66,7 @@ a {
   transition: color .3s, transform .3s, -webkit-transform .3s;
   display: inline-block;
 }
-*::-ms-backdrop, .nav-list__item {
+.nav-list__item {
   color: #585857;
 }
 .nav-list__item:hover, .nav-list__item:focus {
@@ -81,7 +81,7 @@ a {
       -ms-transform: translateY(-5px);
           transform: var(--nudge-up);
 }
-*::-ms-backdrop, .nav-list__item:active {
+.nav-list__item:active {
   color: #316c7f;
 }
 .nav-list__item--active {
@@ -91,7 +91,7 @@ a {
       -ms-transform: translateY(-5px);
           transform: var(--nudge-up);
 }
-*::-ms-backdrop, .nav-list__item--active {
+.nav-list__item--active {
   color: #316c7f;
   font-weight: 700;
 }
@@ -125,7 +125,7 @@ a {
   -o-transition: color .3s;
   transition: color .3s;
 }
-*::-ms-backdrop, .empahsis-link {
+.empahsis-link {
   font-weight: 700;
   color: #585857;
 }
@@ -135,7 +135,7 @@ a {
       -ms-transform: translateY(0);
           transform: translateY(0);
 }
-*::-ms-backdrop, .empahsis-link:hover {
+.empahsis-link:hover {
   color: #316c7f;
 }
 button {
@@ -152,7 +152,7 @@ button {
   -o-transition: color .3s, background .3s;
   transition: color .3s, background .3s;
 }
-*::-ms-backdrop, button {
+button {
   background-color: #316c7f;
   border: 2px solid #316c7f;
 }
@@ -161,7 +161,7 @@ button:hover, button:focus {
   color: var(--primary-color);
   background: none;
 }
-*::-ms-backdrop, button:hover, button:focus {
+button:hover, button:focus {
   color: #316c7f;
 }
 #website-logo {
@@ -231,7 +231,7 @@ button:hover, button:focus {
   font-size: 20px;
   color: var(--primary-color);
 }
-*::-ms-backdrop, .skills-table th {
+.skills-table th {
   color: #316c7f;
 }
 .skills-table tr {
@@ -243,7 +243,7 @@ button:hover, button:focus {
   color: var(--primary-color);
   cursor: pointer;
 }
-*::-ms-backdrop, .skills-table tr:hover {
+.skills-table tr:hover {
   color: #316c7f;
 }
 .resume-button {
@@ -257,7 +257,7 @@ button:hover, button:focus {
   -o-transition: background .3s, color .3s;
   transition: background .3s, color .3s;
 }
-*::-ms-backdrop, .resume-button {
+.resume-button {
   background-color: #316c7f;
   border: 2px solid #316c7f;
 }
@@ -265,7 +265,7 @@ button:hover, button:focus {
   background: none;
   color: var(--primary-color);
 }
-*::-ms-backdrop, .resume-button:hover {
+.resume-button:hover {
   color: #316c7f;
 }
 
@@ -299,14 +299,14 @@ button:hover, button:focus {
   font-weight: var(--bold-text);
   color: var(--primary-color);
 }
-*::-ms-backdrop, #contact_form h3 {
+#contact_form h3 {
   font-weight: 700;
   color: #316c7f;
 }
 .label_std {
   font-weight: var(--bold-text);
 }
-*::-ms-backdrop, .label_std {
+.label_std {
   font-weight: 700;
 }
 input {
@@ -321,7 +321,7 @@ input {
   width: 300px;
   height: 100px;
 }
-*::-ms-backdrop, input, #message {
+input, #message {
   background-color: #eeeeee;
 }
 /*Work Page Specific Styles--------------*/
@@ -353,7 +353,7 @@ section {
   color: var(--text-color);
   margin: 5px 0;
 }
-*::-ms-backdrop, .project-grid__item h2 {
+.project-grid__item h2 {
   font-weight: 700;
   color: #585857;
 }
@@ -377,7 +377,7 @@ section {
   border-radius: 15px;
   margin-right: 5px;
 }
-*::-ms-backdrop, .project-grid__item--tools-list--item {
+.project-grid__item--tools-list--item {
   background-color: #eeeeee;
 }
 .project-btn {
@@ -392,7 +392,7 @@ section {
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
 }
-*::-ms-backdrop, .project-btn-code {
+.project-btn-code {
   border: 2px solid #316c7f;
   color: #316c7f;
 }
@@ -401,7 +401,7 @@ section {
   border: 2px solid var(--primary-color);
   color: white;
 }
-*::-ms-backdrop, .project-btn-demo {
+.project-btn-demo {
   background-color: #316c7f;
   border: 2px solid #316c7f;
 }
