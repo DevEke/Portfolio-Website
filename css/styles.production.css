@@ -321,6 +321,10 @@ input {
   height: 100px;
 }
 
+#form-submit-btn {
+  color: white;
+}
+
 /* Work Page Specific Styles-------------- */
 section {
   text-align: center;
